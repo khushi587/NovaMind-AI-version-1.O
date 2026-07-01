@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaMind AI — Your Second Mind for Better Thinking</title>
+  <meta name="description" content="NovaMind AI is a thinking partner that helps you connect ideas, summarize research, organize knowledge, and think more clearly." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#top" class="nav__logo">
+        <span class="nav__logo-mark" aria-hidden="true">N</span>
+        NovaMind
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="#capabilities">Thinking</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#showcase">Product</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn--primary nav__cta">Start thinking clearly</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero__content">
+        <p class="eyebrow">A second mind, not a chatbot</p>
+        <h1 class="hero__headline">Your Second Mind for Better Thinking.</h1>
+        <p class="hero__subtext">
+          NovaMind helps you connect scattered ideas, summarize dense research, and organize
+          knowledge into something you can actually think with — calmly, clearly, on your terms.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Start thinking clearly</a>
+          <a href="#showcase" class="btn btn--ghost">See it in action</a>
+        </div>
+        <p class="hero__trust">
+          <span class="hero__trust-dot" aria-hidden="true"></span>
+          Trusted by researchers, students, and writers at 40+ universities
+        </p>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="notebook">
+          <div class="notebook__header">
+            <span class="notebook__dot"></span>
+            <span class="notebook__dot"></span>
+            <span class="notebook__dot"></span>
+            <span class="notebook__title">Research Notebook</span>
+          </div>
+          <div class="notebook__body">
+            <p class="notebook__line notebook__line--label">TODAY · 09:42</p>
+            <p class="notebook__line">Climate adaptation strategies show <mark class="highlight">three recurring patterns</mark> across coastal cities.</p>
+            <div class="sticky-note sticky-note--amber">
+              <p>Connects to last week's reading on urban infrastructure ↗</p>
+            </div>
+            <p class="notebook__line">Compare with the 2023 Rotterdam case study before drafting section two.</p>
+            <div class="notebook__tag-row">
+              <span class="tag">#urban-planning</span>
+              <span class="tag">#climate</span>
+            </div>
+          </div>
+        </div>
+        <div class="badge-float">
+          <span class="badge-float__icon" aria-hidden="true">✦</span>
+          4 ideas connected
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOCIAL PROOF ============ -->
+    <section class="proof" aria-label="Usage statistics">
+      <div class="proof__grid">
+        <article class="stat-card">
+          <p class="stat-card__number">12,400+</p>
+          <p class="stat-card__label">Students &amp; Writers</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-card__number">340</p>
+          <p class="stat-card__label">Research Teams</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-card__number">61,000</p>
+          <p class="stat-card__label">Projects Completed</p>
+        </article>
+        <article class="stat-card">
+          <p class="stat-card__number">40+</p>
+          <p class="stat-card__label">Universities &amp; Labs</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ BEFORE / AFTER ============ -->
+    <section class="transform" aria-labelledby="transform-heading">
+      <div class="section-head">
+        <p class="eyebrow">The shift</p>
+        <h2 id="transform-heading">From scattered notes to a connected mind</h2>
+      </div>
+
+      <div class="transform__grid">
+        <article class="transform__card transform__card--before">
+          <h3 class="transform__title">Before NovaMind</h3>
+          <ul class="transform__list">
+            <li>Ideas live in twelve different apps</li>
+            <li>Research gets read once, then forgotten</li>
+            <li>No way to see how concepts relate</li>
+            <li>Summarizing takes hours, not minutes</li>
+          </ul>
+        </article>
+
+        <article class="transform__card transform__card--after">
+          <h3 class="transform__title">After NovaMind</h3>
+          <ul class="transform__list">
+            <li>One calm space for every idea you capture</li>
+            <li>Research resurfaces exactly when it's relevant</li>
+            <li>A living map of how your thinking connects</li>
+            <li>Clear summaries in seconds, not hours</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ THINKING CAPABILITIES ============ -->
+    <section class="capabilities" id="capabilities" aria-labelledby="capabilities-heading">
+      <div class="section-head">
+        <p class="eyebrow">What it does</p>
+        <h2 id="capabilities-heading">Built for deep thinking, not small talk</h2>
+        <p class="section-head__sub">Four core abilities that turn loose notes into real understanding.</p>
+      </div>
+
+      <div class="capabilities__grid">
+        <article class="capability-card">
+          <span class="capability-card__icon" aria-hidden="true">◎</span>
+          <h3>Connect Ideas</h3>
+          <p>NovaMind quietly maps relationships between your notes, surfacing connections you'd otherwise miss.</p>
+        </article>
+
+        <article class="capability-card">
+          <span class="capability-card__icon" aria-hidden="true">▤</span>
+          <h3>Summarize Research</h3>
+          <p>Long papers and articles become clear, accurate summaries — without losing the nuance that matters.</p>
+        </article>
+
+        <article class="capability-card">
+          <span class="capability-card__icon" aria-hidden="true">⌗</span>
+          <h3>Organize Knowledge</h3>
+          <p>Every note finds its place automatically, building a structure that grows clearer the more you use it.</p>
+        </article>
+
+        <article class="capability-card">
+          <span class="capability-card__icon" aria-hidden="true">◈</span>
+          <h3>Challenge Assumptions</h3>
+          <p>NovaMind asks the questions a sharp colleague would, helping you pressure-test your own thinking.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="process" id="how-it-works" aria-labelledby="process-heading">
+      <div class="section-head">
+        <p class="eyebrow">The rhythm</p>
+        <h2 id="process-heading">How NovaMind works</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline__step">
+          <span class="timeline__marker" aria-hidden="true"></span>
+          <h3>Write</h3>
+          <p>Capture thoughts the moment they arrive — messy, half-formed, unedited.</p>
+        </li>
+        <li class="timeline__step">
+          <span class="timeline__marker" aria-hidden="true"></span>
+          <h3>Connect</h3>
+          <p>NovaMind links new notes to your existing knowledge, automatically.</p>
+        </li>
+        <li class="timeline__step">
+          <span class="timeline__marker" aria-hidden="true"></span>
+          <h3>Reflect</h3>
+          <p>Review gentle prompts and summaries that sharpen your thinking.</p>
+        </li>
+        <li class="timeline__step">
+          <span class="timeline__marker" aria-hidden="true"></span>
+          <h3>Grow</h3>
+          <p>Your knowledge compounds — each idea easier to find than the last.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ PRODUCT SHOWCASE ============ -->
+    <section class="showcase" id="showcase" aria-labelledby="showcase-heading">
+      <div class="section-head">
+        <p class="eyebrow">Inside NovaMind</p>
+        <h2 id="showcase-heading">A workspace built for clarity</h2>
+      </div>
+
+      <div class="dashboard" aria-hidden="true">
+        <div class="dashboard__sidebar">
+          <p class="dashboard__brand">NovaMind</p>
+          <p class="dashboard__nav-item dashboard__nav-item--active">Knowledge Graph</p>
+          <p class="dashboard__nav-item">Smart Summaries</p>
+          <p class="dashboard__nav-item">Research Library</p>
+          <p class="dashboard__nav-item">Reflections</p>
+        </div>
+
+        <div class="dashboard__main">
+          <div class="dashboard__row">
+            <div class="panel panel--graph">
+              <p class="panel__label">Knowledge Graph</p>
+              <div class="graph">
+                <span class="graph__node graph__node--lg" style="--x:30%; --y:30%;"></span>
+                <span class="graph__node" style="--x:65%; --y:20%;"></span>
+                <span class="graph__node" style="--x:50%; --y:60%;"></span>
+                <span class="graph__node graph__node--sm" style="--x:80%; --y:55%;"></span>
+                <span class="graph__node graph__node--sm" style="--x:18%; --y:65%;"></span>
+                <svg class="graph__lines" viewBox="0 0 100 100" preserveAspectRatio="none">
+                  <line x1="30" y1="30" x2="65" y2="20" />
+                  <line x1="30" y1="30" x2="50" y2="60" />
+                  <line x1="50" y1="60" x2="80" y2="55" />
+                  <line x1="30" y1="30" x2="18" y2="65" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="panel panel--summary">
+              <p class="panel__label">Smart Summary</p>
+              <p class="panel__text">Three studies converge on a single insight: adaptive infrastructure outperforms rigid systems under climate stress.</p>
+              <div class="progress-bar"><span class="progress-bar__fill" style="--w:72%;"></span></div>
+              <p class="panel__caption">72% confidence · 6 sources</p>
+            </div>
+          </div>
+
+          <div class="dashboard__row">
+            <div class="panel panel--note">
+              <p class="panel__label">Sticky Note</p>
+              <div class="sticky-note sticky-note--teal">
+                <p>Revisit Section 2 after comparing Rotterdam data ↗</p>
+              </div>
+            </div>
+
+            <div class="panel panel--suggestion">
+              <p class="panel__label">AI Suggestion</p>
+              <p class="panel__text">This note relates to two ideas from last month. Want to merge them?</p>
+              <span class="pill">Connect now</span>
+            </div>
+
+            <div class="panel panel--annotation">
+              <p class="panel__label">Annotation</p>
+              <p class="notebook__line">Strong evidence here <mark class="highlight">— worth citing</mark>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MISSION & VISION ============ -->
+    <section class="mission" aria-labelledby="mission-heading">
+      <div class="mission__grid">
+        <article class="mission__col">
+          <p class="eyebrow">Mission</p>
+          <h2 id="mission-heading">Help people think with more clarity, not less effort</h2>
+          <p>We believe the best tools don't think for you — they make your own thinking sharper, faster, and easier to revisit.</p>
+        </article>
+        <article class="mission__col">
+          <p class="eyebrow">Vision</p>
+          <h2>A world where knowledge compounds instead of disappearing</h2>
+          <p>Every note, paper, and idea you've ever captured should still be useful to you years later. NovaMind is built for that long arc.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="testimonials" aria-labelledby="testimonials-heading">
+      <div class="section-head">
+        <p class="eyebrow">In their words</p>
+        <h2 id="testimonials-heading">Calmer minds, clearer work</h2>
+      </div>
+
+      <div class="testimonials__grid">
+        <article class="testimonial-card">
+          <p class="testimonial-card__quote">NovaMind turned three years of scattered lab notes into something I could finally navigate.</p>
+          <div class="testimonial-card__person">
+            <span class="avatar" aria-hidden="true">AR</span>
+            <div>
+              <p class="testimonial-card__name">Aanya Rao</p>
+              <p class="testimonial-card__role">PhD Researcher, Materials Science</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <p class="testimonial-card__quote">It doesn't write for me — it helps me notice what I actually think. That distinction matters.</p>
+          <div class="testimonial-card__person">
+            <span class="avatar" aria-hidden="true">JM</span>
+            <div>
+              <p class="testimonial-card__name">Jonas Meyer</p>
+              <p class="testimonial-card__role">Independent Journalist</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <p class="testimonial-card__quote">The connections it surfaces between old and new notes have genuinely changed how I study.</p>
+          <div class="testimonial-card__person">
+            <span class="avatar" aria-hidden="true">SK</span>
+            <div>
+              <p class="testimonial-card__name">Sara Kim</p>
+              <p class="testimonial-card__role">Graduate Student, Urban Planning</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="pricing" id="pricing" aria-labelledby="pricing-heading">
+      <div class="section-head">
+        <p class="eyebrow">Plans</p>
+        <h2 id="pricing-heading">Start free. Grow when you're ready.</h2>
+      </div>
+
+      <div class="pricing__grid">
+        <article class="price-card">
+          <h3 class="price-card__name">Free</h3>
+          <p class="price-card__price">$0<span>/month</span></p>
+          <p class="price-card__desc">For getting started with everyday note-taking.</p>
+          <ul class="price-card__list">
+            <li>Up to 200 notes</li>
+            <li>Basic knowledge graph</li>
+            <li>Weekly summaries</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline price-card__cta">Get started</a>
+        </article>
+
+        <article class="price-card price-card--highlighted">
+          <p class="price-card__badge">Most popular</p>
+          <h3 class="price-card__name">Pro</h3>
+          <p class="price-card__price">$14<span>/month</span></p>
+          <p class="price-card__desc">For individuals doing serious research or writing.</p>
+          <ul class="price-card__list">
+            <li>Unlimited notes</li>
+            <li>Full knowledge graph</li>
+            <li>Daily smart summaries</li>
+            <li>Assumption-challenging prompts</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary price-card__cta">Get started</a>
+        </article>
+
+        <article class="price-card">
+          <h3 class="price-card__name">Teams</h3>
+          <p class="price-card__price">$39<span>/month</span></p>
+          <p class="price-card__desc">For research groups and shared knowledge bases.</p>
+          <ul class="price-card__list">
+            <li>Everything in Pro</li>
+            <li>Shared workspaces</li>
+            <li>Team knowledge graph</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline price-card__cta">Talk to us</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq" aria-labelledby="faq-heading">
+      <div class="section-head">
+        <p class="eyebrow">Questions</p>
+        <h2 id="faq-heading">Frequently asked questions</h2>
+      </div>
+
+      <div class="accordion">
+        <details class="accordion__item">
+          <summary>Is NovaMind a chatbot?</summary>
+          <p>No. NovaMind doesn't generate conversation for its own sake — it helps you organize, connect, and reflect on your own ideas.</p>
+        </details>
+        <details class="accordion__item">
+          <summary>Do I own my notes and data?</summary>
+          <p>Yes, always. Your notes belong to you and can be exported at any time in plain text.</p>
+        </details>
+        <details class="accordion__item">
+          <summary>Can I use NovaMind for academic research?</summary>
+          <p>It's built for exactly that — long-form research, citation tracking, and connecting ideas across many sources.</p>
+        </details>
+        <details class="accordion__item">
+          <summary>Is there a free plan?</summary>
+          <p>Yes. The Free plan includes up to 200 notes and a basic knowledge graph, no credit card required.</p>
+        </details>
+        <details class="accordion__item">
+          <summary>Can teams collaborate inside NovaMind?</summary>
+          <p>The Teams plan adds shared workspaces and a team-wide knowledge graph for collaborative research.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow">Get in touch</p>
+          <h2 id="contact-heading">Let's bring some clarity to your thinking</h2>
+          <p class="contact__desc">Questions about plans, research use, or team setup? We read every message.</p>
+
+          <dl class="contact__details">
+            <div>
+              <dt>Email</dt>
+              <dd>hello@novamind.ai</dd>
+            </div>
+            <div>
+              <dt>Studio</dt>
+              <dd>Jaipur, Rajasthan, India</dd>
+            </div>
+          </dl>
+
+          <form class="newsletter" aria-label="Newsletter signup">
+            <label for="newsletter-email" class="newsletter__label">Subscribe for thoughtful product updates</label>
+            <div class="newsletter__row">
+              <input type="email" id="newsletter-email" name="newsletter-email" placeholder="you@example.com" required />
+              <button type="submit" class="btn btn--primary">Subscribe</button>
+            </div>
+          </form>
+        </div>
+
+        <form class="contact-form" aria-label="Contact form">
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Jordan Patel" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="jordan@example.com" required />
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us what you're working on..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary contact-form__submit">Send message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <a href="#top" class="nav__logo">
+          <span class="nav__logo-mark" aria-hidden="true">N</span>
+          NovaMind
+        </a>
+        <p>A second mind for better thinking — calm, connected, and entirely yours.</p>
+      </div>
+
+      <nav class="site-footer__col" aria-label="Product">
+        <p class="site-footer__heading">Product</p>
+        <a href="#capabilities">Thinking</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#showcase">Product</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+
+      <nav class="site-footer__col" aria-label="Company">
+        <p class="site-footer__heading">Company</p>
+        <a href="#contact">Contact</a>
+        <a href="#faq">FAQ</a>
+        <a href="#top">About</a>
+      </nav>
+
+      <nav class="site-footer__col" aria-label="Legal">
+        <p class="site-footer__heading">Legal</p>
+        <a href="#top">Privacy</a>
+        <a href="#top">Terms</a>
+      </nav>
+
+      <nav class="site-footer__col" aria-label="Social media">
+        <p class="site-footer__heading">Social</p>
+        <a href="#top">Twitter / X</a>
+        <a href="#top">LinkedIn</a>
+      </nav>
+    </div>
+
+    <div class="site-footer__bottom">
+      <p>© 2026 NovaMind AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
